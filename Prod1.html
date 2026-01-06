@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products Available</title>
+    <link rel="icon" type="image/png" href="/pictures/productsavailable.png">
+
+    <style>
+        body {
+            background-color: #F7F7F5;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1C1C1C;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 20px;
+            font-size: 18px;
+            color: #1A3D7C;
+            text-decoration: none;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            padding: 30px;
+        }
+
+        .card {
+            background: #FFFFFF;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+        }
+
+        .card p {
+            color: #6B6B6B;
+            font-size: 18px;
+            margin: 6px 0;
+        }
+
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #1C1C1C;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Products Available</h1>
+<hr>
+
+<nav>
+    <a href="https://wizard-sk-sd.github.io/Index/">Home</a>
+    <a href="https://wizard-sk-sd.github.io/cart1/cart.html">Your Wishes</a>
+</nav>
+
+<hr>
+
+<div class="container">
+
+    <div class="card">
+        <img src="https://www.cruiseac.com/assets/images/product/1-5-ton-3-star-inverter-split-ac-cwcvbl-vp3f183bl.webp" alt="AC">
+        <h2>AC</h2>
+        <p>Brand - LG</p>
+        <p>Model - LG 2005</p>
+        <p>Warrenty - 2 years</p>
+        <p>Capacity - 2 tons</p>
+        <p>Star -
+            <span style="color: gold;">&#9733;</span>
+            <span style="color: gold;">&#9733;</span>
+            <span style="color: gold;">&#9733;</span>
+        </p>
+        <p class="price">Price - 10000 Ind Rs</p>
+        <pre>   <button onclick="window.location.href='https://wizard-sk-sd.github.io/Paymenthtm/pay.html'" style="height: fit-content;">Pay</button>  </pre>
+    </div>
+
+    <div class="card">
+        <img src="data:image/jpeg;base64,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" alt="Cycle">
+        <h2>Cycle</h2>
+        <p>Brand - Hero Cycle</p>
+        <p>Model - Hero Climber</p>
+        <p>Warrenty - 3 years + 2 free service</p>
+        <p>Capacity - 70 KG</p>
+        <p>Star -
+            <span style="color: gold;">&#9733;</span>
+            <span style="color: gold;">&#9733;</span>
+            <span style="color: gold;">&#9733;</span>
+            <span style="color: gold;">&#9733;</span>
+        </p>
+        <p class="price">Price - 7000 Ind Rs</p>
+        <pre>   <button onclick="window.location.href='https://wizard-sk-sd.github.io/Paymenthtm/pay.html'">Pay</button>  </pre>
+    </div>
+
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpk35ORQfS_JYs_yFyTpQzgxpsfC3to9NB6A&s" alt="PC">
+        <h2>PC</h2>
+        <p>Brand - Acer</p>
+        <p>Config - Intel i7, NVIDIA 2060 RTX, 1 TB, Win 11</p>
+        <p>Model - Acer Hunter 2.00</p>
+        <p>Warrenty - 5 years</p>
+        <p>Star -
+            <span style="color: gold;">&#9733;</span>
+            <span style="color: gold;">&#9733;</span>
+            <span style="color: gold;">&#9733;</span>
+            <span style="color: gold;">&#9733;</span>
+            <span style="color: gold;">&#9733;</span>
+        </p>
+        <p class="price">Price - 750000 Ind Rs</p>
+        <pre>   <button onclick="window.location.href='https://wizard-sk-sd.github.io/Paymenthtm/pay.html'">Pay</button>  </pre>
+    </div>
+
+    <div class="card">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEA8QEBIVEg8PEBAPDw8PEBEVDQ8SFREXFhUVFRUYHCgiGBolGxUTITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFw8PFy0dFRktLTMtLS0rKystKzQ4Ky0rODgtKzctKy0rNjgrLS0tNy0rKysrLSstNysrLS0rLSsrK//AABEIAMIBAwMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABgcEBQEDCAL/xABOEAACAQEDBgQQCwYGAwAAAAAAAQIDBAURBgcSIVFhMUGR0RMUFiVSU3F0gZKho7GzwfAVIjI0NWJyc4OisiNDk8LS4SRCY6TD8WR1gv/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8AvEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA11/XzSsdCVoraWhFpYQjjOUpPBRS293BAbEGkyVyno2+nOdGM4OnJRnCrGKksVin8VtNPXx8RuwAAAAHDeGt6ktbb4EByDX3bflmtEpQs9enVlBYyjTnGTSxwxwXCt/AbAAAAAAAAicM4NkdsdiwqqfRul1VcI9AdXT0NH5Wl8rVjo4eDWSwAAAAAAAAAAAAAAAAAAAAAAAAAQzO59F1nsqUH5xEzIfnZXWm07pUH5+Ag0eZOX7K2faoPljIswq/MfL4ltXez8lQtAtAAEAwMoPmlr72r+rkZ5gX/APNLX3vX9XICoMzksbxx41Zqy/NTLuKOzL/SEu9636qReJaAAIAAA8+3fLSv1Lid6zlyWxs9BHny4Nd+w/8AYVZf7hs9BloAAgAAAAAAAAAAAAAAAAAAAAABE86ixum1/gvz8CWEXzmrG6rZ9mk+StACJZjX89+zZv8AlLVKmzFvXbfu7N6apbJaAAIBgZQfNLX3tX9XIzzAyg+aWvvav6uQFOZlvpCXe9b9VIvIo3Mp9IS72rfrpF5FoAAgAADz7kfrvyk9tqrS/PJnoI895v3pXzZ3tq1Zflkz0IWgACAAAAAAAAAAAAAAAAAAAAAAEbzjrrXbfu4vkqRJIR7OBHG7Ld9xJ8jT9gEDzFy/aWtf6VB8kp85bpT2Yx/trUv9Cn+tlwloAAgGBlB80tfe1f1cjPMDKD5pa+9q/q5AU5mT+kJ961v10S8ijcyX0hU71resol5FoAAgAHE3qfcYHnvNasb3sv4r81NnoU895otd6WZ/UqPzMz0IWgACAAAAAAAAAAAAAAAAAAAAAAGiy7XWy8O9az5IM3ppMto43beHedofJSkwK1zGv/E2lbbOvJVXOXKUtmOf+Lr97S8laJdJaAAIBrsovmds72r+qkbE1+UXzO197V/VSApzMl9Iz71r+soF5lGZkPpCp3rX9ZQLzLQABAOq1P8AZzf1Jeg7THvB/sqv3c/0sChczMeuVDdRn6qSPQRQWZaON5R+rQm/yte0v0tAAEAAAAAAAAAAAAAAAAAAAAAANLlrLC7bwf8A4dp9TI3RocvX1rvHvSuuWDQFXZkKn+OqR22Wt5K1Mu8oTMxUwvOK7KjXj5VL+UvstAAEA12Uk8LFbG+BWau34KUjYmly2qaN23i9ljtPqpAVLmPl1wqLbZqy85R5i9Cg8ytTC8kuypV4+SMv5S/C0AAQDAv6ejZLVLsbPWlyU5MzzS5a1NG7bweyx2j1UgKfzKPrk/uJr0F9Hn/MzPC9IfWhVXm5P2HoAtAAEAAAAAAAAAAAAAAAAAAAAAAI3nHlhdVv+5a5ZJe0khGM5i60277pesiBTuaSthe1lXZOvH/b1H7D0Seas1kuu1i+9n6ioelS0AAQCOZxpYXTeO+zVI8qw9pIyK50nhdFu+7guWrBAVDmdqYXrZ12SrrzM37D0QebM0suu9j+1V9RUPSZaAAIBG85E8Lpt720JR8ZqPtJIRLOtPC57bvjSXLXggKizQT662be6q8xUPRR5wzQ672sn2qr8xUPR5aAAIAAAAAAAAAAAAAAAAABW2dDLToWlYLNLCs4rpqrF66MJLFU4tcE5J4t8Ki1xyTQZWVuX6pylZ7G1KcW41LQ8HCD44wXBKS429S368IXO/bRN4zr1ZN7as8PAk8ERenWw7nkO+FoNoktO9avbZ/xJ85gZT3xVlZatN1ajU1g06k2msU9ax3GvjaTAvWvpRa9/f0AYmRVWULXTqxbjKnpOLTwaei1j5S0o5T2lfv5eHRfpRVdxvRnj7/9kphaRCphHKy1L98/DCn/AEnYsr7V23H8On/SQ9Wg+umC4JgssbV2xfw4cxp8scp69aw2ijOUXGpFReEEnqkpew1EbQsdbwWD14N68NSwW16seBcZrr4tMXTklJ46NOWGg8NJtqUMXxpa8eB46mQaPIS2yo26hWhqlTcnrWK+NBx/mZbryztPZx8EIlPXJCEa7+P8VS1T6HPCWG7DFf2JhTtUGvlPHVq6HPHi4+Dgx4+LehCpe8sLV2xfw4cx8SyutXbeSnS/pInG04pPgx4nwh2guCUSyqtXbpeCNNfymlypvmtXslalUqylGcVjFv4uKakuRpM17tBgXlacYNbSCN5L2mdK1U5wk4OLeuEnF6009aw4myxp3xVfDWqeGrPnK3sSwqY7/f8A7JJTtWr39AhW8nelXttTwVJ4+kyLBlda6Ek41pTiuGnWk5wktmt4rwNEalaDpnXAvfJbKijbYPQ+JWgsalCT+NH60X/mjjx8uBvjzVZLyqUakK1GbhVpvShJcT2YcafA1xpl55FZVU7woaaShXpYRtFHsJNapR2wlg2nua4UzNipEACAAAAAAAAAAfLYGjy2yijYLFWtLSlUSUKFN/vK0tUI9zhb3RZ5znXnKUp1JOdScpTqVJfKnOTxlJ91tlw59LDVqXbGrSi5Ky11WrRWLkqbpzg5r7Lkm9ixfEUdZbbGaTxSfGtnN78JYNjGodiqmJGR9KRoZbrGLaauP9z5czoqMDtsk8GbalaDR02fNe9VTlouMm8E21we/ABJVaD6VoIvDKCGKWjLF6v8q8rZ2Rv6m218bHXw6OGrfjgESR2k19tr4rk9Jqlf1Np4aWrW8Ulqx3vWdE73ptN68E0uBbceDEDOs0sHj9o3VK0++vi1EUV5wSUteDxS1L0GR8N044Y6WtYrBJ6m+6BKOmTh2gjnw9TxUfjYvDscNe/HA+J5Q002sJYrU9UecCRytPviYNrr4r399xp3lBB8EZeQ+qNuVTHBNYYcPv74gd1OWsz6dY1kWd8Z+/v76yKznWOuVQx9M4cijulUM7J/KGpYbTTtVLF6GqtT4q1BtdEh3cFjF8UkuLFPUznhw6u7wGHaLyhFpfKeKWjHhevWiD1pYLZCtSp1qUlKlWhGpTkuCUZLFPkZkYkeyGs1Sld9lp1Vo1NCU5Q4HDTnKai1xNKSTW1M36ZkfYODkAAAAAA4Z8SZ9M6arAx7RWKuyrzb3faJSqU4uy1pNtys+HQW9rpPUv8A50Sw7ZPhI/bm9YFJXtkBbaDbozjXguB05ONXDfCXsbI7Ur2inJwnjGS4Y1E1PklrL0tMGai8LvhVWjVhGpHiU4p4b0+J70UVJG86nHHHuYL2HY71XHCS5HzErvDIWDeNGpKn9Wa04+B4prw4mpqZE2lcE6TX2pp8miUalXrHY+Rf1HZG+Y9i/IZcskLXsg/xXzHXLJS19hF/iRA61fUexfL/AGOfhmHYv38AeS1r7XHx4c5x1L2vtcfHp84B3tT2PkPl3lTfF+Xf3DnqYtXal49PnOOpm1dqXj0+cD5V4U9n5XzHZG86ez8r5j56mbV2pePT5x1NWrtS8enzgdnwtT2flfMc/C8Nnp5jr6mbV2uPjw5znqZtXa4+NDnA5d7R2eV8x1TvWOx8qO5ZM2rsI+PE+lkxa+xj/EQGJ8KLiXkXOc/CUuKJnwyWtWyC/FfsRlUMj7Q/lThHuaU36EBpZW+q+COHgXtRzZ6dqrPRppyf1OLu6PB4SaXdkjThg6mNSS4vk0/FT1+FklstkUUoxioxXBGKSivAiaIPdWb201WnaK0aMXwpY1KvIsF5SzMjcirDY5RqwpurXjrjWrtSlB7YRw0YvfhjvPmzU2bqxJgS6zV8TOjI0djk9RtqDIMlM+j4ifSA+gAAAAHDOqpE7j5aA1lez4mBWu/EkDgcOmBFal0Y8RjzuPcTDoSHQUBCpXDuOt5P7icdAQ6AgII8ndx8PJzcT7oC2HHS62AV+8m9xw8mtxYPS62DpdbAK86mtxx1NbixOllsOOllsArvqa3HHUzuLF6WWwdLLYBXXU1uHU1uLF6VWwdKrYBXaya3H0sm9xYXSy2DpZbAIAsndx2Rye3E76WWw56XWwCERuHcd0Lk3Ex6XRz0BARandGHEZlG7sDfdBRyqQGvo2bAzacMDt0DlRA4SPpDA5A5AAAAAAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADkAAAAAAAH//2Q==" alt="Router">
+        <h2>Router</h2>
+        <p>Brand - Link-It</p>
+        <p>Config - 2000ghps per second, multi router supported</p>
+        <p>Model - TL 00543</p>
+        <p>Warrenty - 2 years</p>
+        <p>Star -
+            <span style="color: gold;">&#9733;</span>
+            <span style="color: gold;">&#9733;</span>
+            <span style="color: gold;">&#9733;</span>
+        </p>
+        <p class="price">Price - 2500 Ind Rs</p>
+        <pre>   <button onclick="window.location.href='https://wizard-sk-sd.github.io/Paymenthtm/pay.html'">Pay</button>  </pre>
+    </div>
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
